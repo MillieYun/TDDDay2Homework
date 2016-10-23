@@ -19,9 +19,9 @@ namespace PotterShoppingCart.Tests
             // Arrange
             var books = new List<Book>
             {
-                new Book() { Id = 1, Quantity = 1 }
+                new Book() { ID = 1, Price = 100, Quantity = 1 }
             };
-            var target = new PotterShoppingCart();
+            var target = new ShoppingCart();
 
             // Act
             var expected = 100;
