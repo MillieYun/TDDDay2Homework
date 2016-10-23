@@ -34,6 +34,7 @@ namespace PotterShoppingCart.Tests
         /// <summary>
         /// 100 * 2 * 0.95 = 190
         /// </summary>
+        [TestMethod]
         public void 買一本第一集一本第二集_總金額為200x95折()
         {
             // Arrange
