@@ -73,6 +73,27 @@ namespace PotterShoppingCart.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [TestMethod]
+        public void 買一到四集各一本_總金額為400x8折()
+        {
+            // Arrange
+            var books = new List<Book>
+            {
+                new Book() { ID = 1, Price = 100, Quantity = 1 },
+                new Book() { ID = 2, Price = 100, Quantity = 1 },
+                new Book() { ID = 3, Price = 100, Quantity = 1 },
+                new Book() { ID = 4, Price = 100, Quantity = 1 }
+            };
+            var target = new ShoppingCart();
+
+            // Act
+            var expected = 320;
+            var actual = target.GetSum(books);
+
+            // Assert 
+            Assert.AreEqual(expected, actual);
+        }
+
 
     }
 }
