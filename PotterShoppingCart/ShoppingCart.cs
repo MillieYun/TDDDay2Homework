@@ -15,7 +15,7 @@ namespace PotterShoppingCart
         /// </summary>
         /// <param name="books">書藉資料</param>
         /// <returns></returns>
-        public double GetSum(List<Book> books)
+        public double GetTotal(List<Book> books)
         {
 
             var package = getPackage(books);

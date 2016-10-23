@@ -25,7 +25,7 @@ namespace PotterShoppingCart.Tests
 
             // Act
             var expected = 100;
-            var actual = target.GetSum(books);
+            var actual = target.GetTotal(books);
 
             // Assert 
             Assert.AreEqual(expected, actual);
@@ -47,7 +47,7 @@ namespace PotterShoppingCart.Tests
 
             // Act
             var expected = 190;
-            var actual = target.GetSum(books);
+            var actual = target.GetTotal(books);
 
             // Assert 
             Assert.AreEqual(expected, actual);
@@ -67,7 +67,7 @@ namespace PotterShoppingCart.Tests
 
             // Act
             var expected = 270;
-            var actual = target.GetSum(books);
+            var actual = target.GetTotal(books);
 
             // Assert 
             Assert.AreEqual(expected, actual);
@@ -88,7 +88,7 @@ namespace PotterShoppingCart.Tests
 
             // Act
             var expected = 320;
-            var actual = target.GetSum(books);
+            var actual = target.GetTotal(books);
 
             // Assert 
             Assert.AreEqual(expected, actual);
@@ -110,7 +110,7 @@ namespace PotterShoppingCart.Tests
 
             // Act
             var expected = 375;
-            var actual = target.GetSum(books);
+            var actual = target.GetTotal(books);
 
             // Assert 
             Assert.AreEqual(expected, actual);
@@ -131,7 +131,7 @@ namespace PotterShoppingCart.Tests
 
             // Act
             var expected = 370;
-            var actual = target.GetSum(books);
+            var actual = target.GetTotal(books);
 
             // Assert 
             Assert.AreEqual(expected, actual);
@@ -151,7 +151,7 @@ namespace PotterShoppingCart.Tests
 
             // Act
             var expected = 460;
-            var actual = target.GetSum(books);
+            var actual = target.GetTotal(books);
 
             // Assert 
             Assert.AreEqual(expected, actual);
